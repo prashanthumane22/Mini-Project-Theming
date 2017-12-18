@@ -1,0 +1,110 @@
+    body{
+        border: 0 none;
+        color: #000;
+        font-family: arial;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0;
+        max-width: 100%;
+        min-width: 100%;
+        //width: 1200px;
+        padding: 0;
+        //margin: 0 auto;
+    }
+    .container-wrapper{
+        width: 1200px;
+        margin: 0 auto;
+
+    }
+    .container{
+        width: 100%;
+    }
+    .navbar-header{
+
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: flex;
+    min-width: min-content;
+    }
+    #mysearch2{
+        border:none;
+        width: 7%;
+    }
+    .ul-menu{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        display: inline-block;
+    }
+    li a {
+    display: block;
+    padding: 21px 0 0 33px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial;
+    color: #64829c;
+}
+.contact{
+    padding: 14px 0 0 67px;
+}
+.contact a{
+    text-decoration: none;
+    color: #b3b4b9;
+    font-size: 13px;
+    font-family: arial;
+     padding: 13px 0 0 0px;
+}
+span.bar {
+    padding: 0 10px;
+    color: #b3b4b9;
+}
+span.contact-us{
+    color: #b3b4b9;
+    font-size: 13px;
+    font-family: arial;
+}
+.image{
+    padding: 10px 0 0 15px;
+}
+.banner-container{
+    padding-top: 40px; 
+    
+}
+.image2 {
+    position: relative;
+    top: -288px;
+    left: 0;
+}
+.image3 {
+    position: absolute;
+    bottom: -15px;
+    right: 84px;
+}
+span.sign{
+    color: #64829c;
+}
+h3{
+    font-size: 16px;
+    
+}
+.product-name{
+    font size :12px;
+    color -: #808080;
+    //text-align: center;
+}
+.star{
+   background: url(images/star.jpg);
+background-repeat:repeat;
+background-position:center;
+background-size: cover;
+}
+div #repeat-x {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png);
+     background-repeat: repeat-x;
+     width: 50px;
+      }
+    
+    
