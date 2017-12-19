@@ -47,6 +47,22 @@
     font-family: arial;
     color: #64829c;
 }
+.fa-caret-down:before {
+    content: '\e809';
+}
+i.fa-caret-down, i.fa-caret-up {
+    width: 10px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
 .contact{
     padding: 14px 0 0 67px;
 }
@@ -85,6 +101,7 @@ span.contact-us{
 }
 span.sign{
     color: #64829c;
+    padding: 0 33px;
 }
 h3{
     font-size: 16px;
@@ -93,8 +110,10 @@ h3{
 .product-name{
     font size :12px;
     color -: #808080;
-    //text-align: center;
+    text-align: center;
 }
+
+
 .star{
    background: url(images/star.jpg);
 background-repeat:repeat;
@@ -106,5 +125,41 @@ div #repeat-x {
      background-repeat: repeat-x;
      width: 50px;
       }
+img.product2 {
+    padding: 0 14px 0 14px;
+}
+img.product4 {
+    padding: 0 0 0 14px;
+}
+
+p:last-child, .form-group:last-child, .panel:last-child {
+    margin-bottom: 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.latestPost-container .views-infinite-scroll-content-wrapper, .latestPost-container .block-also-like, .latestPost-container .view-archive, .latestPost-container .search_page, #block-views-block-latest-blog-post-block-1 .views-infinite-scroll-content-wrapper, #block-views-block-latest-blog-post-block-1 .block-also-like, #block-views-block-latest-blog-post-block-1 .view-archive, #block-views-block-latest-blog-post-block-1 .search_page, .region .views-infinite-scroll-content-wrapper, .region .block-also-like, .region .view-archive, .region .search_page, .path-archive .views-infinite-scroll-content-wrapper, .path-archive .block-also-like, .path-archive .view-archive, .path-archive .search_page, .path-search .views-infinite-scroll-content-wrapper, .path-search .block-also-like, .path-search .view-archive, .path-search .search_page {
+    margin: 0 0 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+p:last-child, .form-group:last-child, .panel:last-child {
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+body div * {
+    outline: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
     
     

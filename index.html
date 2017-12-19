@@ -3,64 +3,152 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-<div class="container-wrapper">
+<div id="wrapper" class="container-wrapper">
 
 <!-- Header Section -->
-	<header id="navbar" class="navbar">
-		<div class="container">
-			<div class="navbar-header">
-				<img src="images/layout-(1)_03.jpg" width="199" alt="Logo" style="display: inline-block; border:none;">
-				<input id="mysearch2" type="search">
-				<img src="images/search.jpg" width="27" alt="search" style="display: inline-block; border:none;">
-
-				<div class="menu">
-					<ul class="ul-menu">
-						<li><a href=""> HOME</a></li>
-						<li><a href="">FASHION</a></li>
-						<li><a href="">ELECTRONICS</a></li>
-						<li><a href="">FEATURES</a></li>
-						<li><a href="">BUY PORTO!</a></li>
-					</ul>
-				</div>
-				<div class="contact">
+	<header class="header">
+		<span class="logo">
+			<img src="images/layout-(1)_03.jpg" width="199" alt="Logo">
+		</span>
+		<span class="search">
+			<img src="images/search.jpg" width="27" alt="Logo">
+		</span>
+		<span class="navbar">
+			<ul>
+		        <li class="home"><a href="#home">HOME </a></li>
+		        <li><a href="#fashion">FASHION<i class="fa fa-angle-down"></i></a></li>
+		        <li><a href="#electronics">ELECTRONICS<i class="fa fa-angle-down"></i></a></li>
+		        <li><a href="#features">FEATURES<i class="fa fa-angle-down"></i></a></li>
+		        <li class="buy"><a href="#buy porto!">BUY PORTO!</a></li>
+	     </ul>
+		</span>
+		<span>
+			<div class="contact">
 					<img src="images/phone.jpg" width="15" alt="phone">
 					<a href="tel:(+404)158142578">(+404) 158 14 25 78</a>
 					<span class="bar">|</span>
 					<span class="contact-us">CONTACT US</span>
-				</div>
-				<div class="image">
-					<img src="images/layout-(1)_41.jpg" width="37">
-				</div>	
 			</div>
-		</div>	
+		</span>
+		<span class="img1">
+			<img src="images/layout-(1)_41.jpg" width="37" alt="">
+		</span>
 	</header>
+
 <!-- Banner -->
-<div class="banner-container">
+<!-- <div class="banner-container">
 	<div class="image1">
 		<img src="images/layout-(1)_10.jpg" width="595">
 		<img src="images/layout-(1)_12.jpg" width="294">
 		<img class="image2" src="images/layout-(1)_14.jpg" width="294">
 		<img class="image3" src="images/layout-(1)_16.jpg" width="294">	
 	</div>
+</div> -->
+
+<div class="banner-wrapper">
+	<span class="img2">
+			<img src="images/layout-(1)_10.jpg" width="595" alt="">
+	</span>
+	<span class="img3">
+			<img src="images/layout-(1)_12.jpg" width="294" alt="">
+	</span>
+	<span class="left-banner">
+		<div class="img4">
+			<img src="images/layout-(1)_14.jpg" width="294" alt="">
+		</div>
+		<div class="img5">
+			<img src="images/layout-(1)_16.jpg" width="296" alt="">
+		</div>
+	</span>
 </div>
+
 
 <!-- Featured Products -->
 <div>
 	<h3 style="text-transform: uppercase;">Featured Products <img class="img1" src="images/layout-(1)_22.jpg" width="921"> <span class="sign">&lt; &gt;</span> </h3>
 </div>
-<div>
-	<img src="images/layout-(1)_25.jpg" width="284">
-</div>
-<div class="product-name">
-	Item Name
-</div>
-<div>
-	<img src="images/star_03.jpg" width="86">
+<!-- <div class="featured-container">
+	<div class="featured">
+		<div class="product1">
+			<img  src="images/layout-(1)_25.jpg" width="284">
+		</div>
+		<div class="product2">
+			<img src="images/layout-(1)_27.jpg" width="284">
+		</div>
+		
+		
+		<img class="product3" src="images/layout-(1)_29.jpg" width="284">
+		<img class="product4" src="images/layout-(1)_31.jpg" width="284">
+	</div>
+	<div class="product-name">
+		Item Name
+	</div>
+	<div>
+		<img src="images/star_03.jpg" width="86">
 
-	<!-- <img class="star" src="images/star.jpg" width="14"> -->
+		<!-- <img class="star" src="images/star.jpg" width="14"> 
+	</div> -->
+
+	<div class="form-group"><div class="view view-latest-blog-post view-id-latest_blog_post view-display-id-block_1 js-view-dom-id-490ff6640fa0ae3b78c965b4b5a2c7c5a1a7a4eb21b20bfcb0dce61063424910">
+  
+    
+      
+      <div class="view-content">
+      <div data-drupal-views-infinite-scroll-content-wrapper class="views-infinite-scroll-content-wrapper clearfix form-group">   
+    <div>
+   <div class="latest-post slideanim silde">
+     
+<div class="postImg">
+    <a href="/blog/home-flooring"><img src="/blog/sites/default/files/styles/latest_blog_small/public/2017-11/TN_3.jpg?itok=4wkmWW39" width="267" height="267" alt="TN" typeof="foaf:Image" class="img-responsive" />
+
+</a>
 
 </div>
+<div class="postData">
+  <span class="line">&nbsp;</span>
+    <h2 class="postTitle"><a href="/blog/home-flooring" hreflang="en">Home Flooring</a></h2> 
+  
+  <p class="postDescription">Wooden floors work equally well with a modern decor and an ethnic set-up. </p>
+  <div class="postCategory">
+    <a href="category/3" class="main-category">Living and Lifestyle</a>
+  </div>
+  <div class="read-more"><a href="/blog/home-flooring">&nbsp;</a></div>
+</div>
+
+   </div>
+   </div>
+       
+   
+  
+   <div>
+   <div class="latest-post slideanim big data-right">
+     
+<div class="postImg">
+    <a href="/blog/home-diy-ideaso"><img src="/blog/sites/default/files/styles/latest_blog_small/public/2017-11/TN_2.jpg?itok=JqcTEaEI" width="267" height="267" alt="TN" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+
+</div>
+<div class="postData">
+  <span class="line">&nbsp;</span>
+    <h2 class="postTitle"><a href="/blog/home-diy-ideaso" hreflang="en">Home DIY Ideas_O</a></h2> 
+  
+  <p class="postDescription">Diwali calls for some DIY, of course! So use your creativity and add peppy décor elements to…</p>
+  <div class="postCategory">
+    <a href="category/3" class="main-category">Living and Lifestyle</a>
+  </div>
+  <div class="read-more"><a href="/blog/home-diy-ideaso">&nbsp;</a></div>
+</div>
+
+   </div>
+   </div>
+       
+
+</div>
+
 </body>
 </html>
