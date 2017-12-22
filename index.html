@@ -4,20 +4,33 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/style1.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="js/slick-master/slick/slick.css">
+  	<link rel="stylesheet" type="text/css" href="js/slick-master/slick/slick-theme.css"> 
+
+  	<script src="jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="js/slick-master/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script type="text/javascript" src="js/index.js"></script>
+
 </head>
 <body>
 <div id="wrapper" class="container-wrapper">
 
 <!-- Header Section -->
 	<header class="header">
-		<span class="logo">
-			<img src="images/layout-(1)_03.jpg" width="199" alt="Logo">
-		</span>
-		<span class="search">
+		<div class="logo">
+			<a href="#"> <img src="images/layout-(1)_03.jpg" width="199" alt="Logo"></a>
+		</div>
+		<div class="search">
 			<img src="images/search.jpg" width="27" alt="Logo">
-		</span>
-		<span class="navbar">
+		</div>
+		<div class="search-box">
+            <input type="text" placeholder=""/>
+            <input type="button" value="Search"/>
+          </div>
+		<div class="navbar">
 			<ul>
 		        <li class="home"><a href="#home">HOME </a></li>
 		        <li><a href="#fashion">FASHION<i class="fa fa-angle-down"></i></a></li>
@@ -25,130 +38,666 @@
 		        <li><a href="#features">FEATURES<i class="fa fa-angle-down"></i></a></li>
 		        <li class="buy"><a href="#buy porto!">BUY PORTO!</a></li>
 	     </ul>
-		</span>
-		<span>
+		</div>
+		<div class="contact-wrapper">
 			<div class="contact">
 					<img src="images/phone.jpg" width="15" alt="phone">
 					<a href="tel:(+404)158142578">(+404) 158 14 25 78</a>
 					<span class="bar">|</span>
 					<span class="contact-us">CONTACT US</span>
 			</div>
-		</span>
-		<span class="img1">
-			<img src="images/layout-(1)_41.jpg" width="37" alt="">
-		</span>
-	</header>
-
-<!-- Banner -->
-<!-- <div class="banner-container">
-	<div class="image1">
-		<img src="images/layout-(1)_10.jpg" width="595">
-		<img src="images/layout-(1)_12.jpg" width="294">
-		<img class="image2" src="images/layout-(1)_14.jpg" width="294">
-		<img class="image3" src="images/layout-(1)_16.jpg" width="294">	
-	</div>
-</div> -->
-
-<div class="banner-wrapper">
-	<span class="img2">
-			<img src="images/layout-(1)_10.jpg" width="595" alt="">
-	</span>
-	<span class="img3">
-			<img src="images/layout-(1)_12.jpg" width="294" alt="">
-	</span>
-	<span class="left-banner">
-		<div class="img4">
-			<img src="images/layout-(1)_14.jpg" width="294" alt="">
 		</div>
-		<div class="img5">
-			<img src="images/layout-(1)_16.jpg" width="296" alt="">
-		</div>
-	</span>
-</div>
-
-
-<!-- Featured Products -->
-<div>
-	<h3 style="text-transform: uppercase;">Featured Products <img class="img1" src="images/layout-(1)_22.jpg" width="921"> <span class="sign">&lt; &gt;</span> </h3>
-</div>
-<!-- <div class="featured-container">
-	<div class="featured">
-		<div class="product1">
-			<img  src="images/layout-(1)_25.jpg" width="284">
-		</div>
-		<div class="product2">
-			<img src="images/layout-(1)_27.jpg" width="284">
+		<div class="img1">
+			<!-- <img src="images/layout-(1)_41.jpg" width="37" alt=""> -->
+			<i class="fa fa-shopping-bag" aria-hidden="true" style="font-size: 40px"></i>
 		</div>
 		
-		
-		<img class="product3" src="images/layout-(1)_29.jpg" width="284">
-		<img class="product4" src="images/layout-(1)_31.jpg" width="284">
-	</div>
-	<div class="product-name">
-		Item Name
-	</div>
-	<div>
-		<img src="images/star_03.jpg" width="86">
-
-		<!-- <img class="star" src="images/star.jpg" width="14"> 
+	</header><br>
+	<!-- <div class="search-inbox">
+			<input type="text" name="text" style="display: none;">
 	</div> -->
 
-	<div class="form-group"><div class="view view-latest-blog-post view-id-latest_blog_post view-display-id-block_1 js-view-dom-id-490ff6640fa0ae3b78c965b4b5a2c7c5a1a7a4eb21b20bfcb0dce61063424910">
-  
-    
+	<!-- Slider -->
+	<div class="regular slider">
+
+		<div class="ban3">
+			<img src="images/banner3.jpg" width="1200">
+		</div>
+		<div class="ban4">
+			<img src="images/banner4.jpg" width="1200">
+		</div>
+		<div class="ban5">
+			<img src="images/banner5.jpg" width="1200">
+		</div>
+		<!-- <div class="bx-controls-direction">
+			<a class="bx-prev" href="">Prev</a>
+			<a class="bx-next" href="">Next</a>
+		</div>-->
+	</div> 
+
+<!-- Banner -->
+<div class="banner-wrapper">
+	<div class="img2">
+			<a href="#"> <img src="images/layout-(1)_10.jpg" width="595" alt=""></a>
+	</div>
+	<div class="img3">
+			<a href="#"><img src="images/layout-(1)_12.jpg" width="294" alt=""></a>
+	</div>
+	<div class="left-banner">
+		<div class="img4">
+			<a href="#"><img src="images/layout-(1)_14.jpg" width="294" alt=""></a>
+		</div>
+		<div class="img5">
+			<a href="#"><img src="images/layout-(1)_16.jpg" width="296" alt=""></a>
+		</div>
+	</div>
+</div>
+
+
+<!-- Featured Products Title-->
+<div>
+	<h3 style="text-transform: uppercase;">Featured Products <img class="img1" src="images/layout-(1)_22.jpg" width="921" alt=""> 	 <span class="feat2"><i class="fa fa-angle-left" style="font-size: 20px"></i>
+      <i class="fa fa-angle-right" style="font-size: 20px"></i>
+      </span>
+	</h3>
+</div>
+
+<!-- Featured Products -->
+<div class="product-wrapper">
+	<div class="prod1">
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_25.jpg" width="284" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span>
+				<img src="images/star_03.jpg" width="86" alt="">
+			</span>
+			<span>
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+			</span>
+			<span>
+				<img src="images/star_05.jpg" width="86" alt="">
+			</span>
+		</div>
+		<div class="price">
+			$75.00
+		</div>
+		<div align="center" class="cart">
+			<span>
+				<img src="images/layout-(1)_38.jpg" width="38" alt="">
+			</span>
+			<button class="cart1">
+				<img src="images/caart_03.jpg" width="18" alt="">Add to Cart
+			</button>
+
+			<span>
+				<img src="images/layout-(1)_41.jpg" width="37" alt="">
+			</span>
+		</div>
+	</div>
+	<div class="prod2" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_27.jpg" width="284" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span>
+				<img src="images/star_03.jpg" width="86" alt="">
+			</span>
+			<span>
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+			</span>
+			<span>
+				<img src="images/star_05.jpg" width="86" alt="">
+			</span>
+		</div>
+		<div class="price">
+			$85.00
+		</div>
+		<div class="cart">
+			<span>
+				<img src="images/layout-(1)_38.jpg" width="38" alt="">
+			</span>
+			<button class="cart1">
+				<img src="images/caart_03.jpg" width="18" alt="">Add to Cart
+			</button>
+			<span>
+				<img src="images/layout-(1)_41.jpg" width="37" alt="">
+			</span>
+		</div>
+	</div>
+	<div class="prod3" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_29.jpg" width="285" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span>
+				<img src="images/star_03.jpg" width="86" alt="">
+			</span>
+			<span>
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+			</span>
+			<span>
+				<img src="images/star_05.jpg" width="86" alt="">
+			</span>
+		</div>
+		<div class="price">
+			$100.00
+		</div>
+		<div class="cart">
+			<span>
+				<img src="images/layout-(1)_38.jpg" width="38" alt="">
+			</span>
+			<button class="cart1">
+				<img src="images/caart_03.jpg" width="18" alt="">Add to Cart
+			</button>
+			<span>
+				<img src="images/layout-(1)_41.jpg" width="37" alt="">
+			</span>
+		</div>
+	</div>
+	<div class="prod4" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_31.jpg" width="282" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span>
+				<img src="images/star_03.jpg" width="86" alt="">
+			</span>
+			<span>
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+				<img src="images/star.jpg" width="14" alt="">
+			</span>
+			<span>
+				<img src="images/star_05.jpg" width="86" alt="">
+			</span>
+		</div>
+		<div class="price">
+			$35.00
+		</div>
+		<div class="cart">
+			<span>
+				<img src="images/layout-(1)_38.jpg" width="38" alt="">
+			</span>
+			<button class="cart1">
+				<img src="images/caart_03.jpg" width="18" alt="">Add to Cart
+			</button>
+			<span>
+				<img src="images/layout-(1)_41.jpg" width="37" alt="">
+			</span>
+		</div>
+	</div>
+</div>
+	
+<!-- BROWSE OUR CATEGORY -->
+<div>
+	<h3 style="text-transform: uppercase;">browse our categories <img class="img1" src="images/layout-(1)_22.jpg" width="915" alt=""> 
+		 <span class="feat2"><i class="fa fa-angle-left" style="font-size: 20px"></i>
+      <i class="fa fa-angle-right" style="font-size: 20px"></i>
+      </span>
+</div>
+
+<div class="category">
+	<div class="cri">
+		<a href="#"><img src="images/layout-(1)_45.jpg" width="291" alt="">
+		<div class="cricket"><span>CRICKET</span></div></a>
+	</div>
+	<div class="cri">
+		<a href="#"><img src="images/layout-(1)_47.jpg" width="291" alt="">
+		<div class="cricket"><span>FITNESS</span></div></a>
+	</div>
+	<div class="cri">
+		<a href="#"><img src="images/layout-(1)_49.jpg" width="291" alt="">
+		<div class="cricket"><span>FOOTBALL</span></div></a>
+	</div>
+	<div class="net">
+		<a href="#"><img src="images/layout-(1)_51.jpg" width="294" alt="">
+		<div class="netball">NETBALL</div></a>
+	</div>
+	<div class="cri1">
+		<img src="images/layout-(1)_45.jpg" width="291" alt="">
+		<div class="cricket1">CRICKET</div>
+	</div>
+	<div class="fit1">
+		<img src="images/layout-(1)_47.jpg" width="290" alt="">
+		<div class="fitness1">FITNESS</div>
+	</div>
+	<div class="foot1">
+		<img src="images/layout-(1)_49.jpg" width="291" alt="">
+		<div class="football1">FOOTBALL</div>
+	</div>
+	<div class="net1">
+		<img src="images/layout-(1)_51.jpg" width="294" alt="">
+		<div class="netball1">NETBALL</div>
+	</div>
+
+</div>
+
+<!-- Just Arrived Title-->
+<div>
+	<h3 style="text-transform: uppercase;">just arrived <img class="img1" src="images/layout-(1)_22.jpg" width="921" alt=""></h3>
+</div>
+
+<!-- Just Arrived -->
+<div class="arrived-wrapper">
+	<div class="prod5">
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_56.jpg" width="191" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+			
+		</div>
+		<div class="price">
+			$320.00
+		</div>
+	</div>
+	<div class="prod6" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_58.jpg" width="191" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$150.00
+		</div>
+	</div>
+	<div class="prod7" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_60.jpg" width="189" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$89.00
+		</div>
+	</div>
+	<div class="prod8" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_61.jpg" width="190" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$80.00
+		</div>
+	</div>
+	<div class="prod9" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_63.jpg" width="190" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$19.00
+		</div>
+	</div>
+	<div class="prod10" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_65.jpg" width="191" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$75.00
+		</div>
+	</div>
+</div>
+<div class="arrived-wrapper1">
+	<div class="prod11">
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_72.jpg" width="191" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$75.00
+		</div>
+	</div>
+	<div class="prod12" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_73.jpg" width="181" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$120.00
+		</div>
+	</div>
+	<div class="prod13" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_75.jpg" width="199" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$20.00
+		</div>
+	</div>
+	<div class="prod14" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_76.jpg" width="178" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$50.00
+		</div>
+	</div>
+	<div class="prod15" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_78.jpg" width="190" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$65.00
+		</div>
+	</div>
+	<div class="prod16" >
+		<div class="shoose">
+			<a href="#"><img src="images/layout-(1)_79.jpg" width="191" alt=""></a>
+		</div>
+		<div class="item-name">
+			Item Name
+		</div>
+		<div class="rating">
+			<span class="star1">
+				<img src="images/star_05.jpg" class="star">
+				<img src="images/star.jpg">
+				<!-- <img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg">
+				<img src="images/star.jpg"> -->
+				<img src="images/star_03.jpg" class="star">
+			</span>
+		</div>
+		<div class="price">
+			$75.00
+		</div>
+	</div>
+</div>
+
+<!-- BLOG -->
+
+
+<div class="blog">
+    <div class="latestblog">
+      <b>LATEST BLOG POST</b>
+      <br><br>
+
+      <div class="latest">
+        <div class="latest1">
+          <p class="solid"><a href=""><img src="images/layout-(1)_86.jpg"></a></p>
+        </div>
       
-      <div class="view-content">
-      <div data-drupal-views-infinite-scroll-content-wrapper class="views-infinite-scroll-content-wrapper clearfix form-group">   
-    <div>
-   <div class="latest-post slideanim silde">
-     
-<div class="postImg">
-    <a href="/blog/home-flooring"><img src="/blog/sites/default/files/styles/latest_blog_small/public/2017-11/TN_3.jpg?itok=4wkmWW39" width="267" height="267" alt="TN" typeof="foaf:Image" class="img-responsive" />
+        <div class="latest2">
+          <div>
+            <span><i class="fa fa-calendar" aria-hidden="true" style="font-size: 48px"></i></span>
+            <span class="1"><b>Post Format - Image Gallery</b></span><br>
+          </div>
+          <p>Euismod atrus vulputate iltricies etri elit. Class aptent taciti socioqu ad litero torquent...</p>
+          <a href="#">Read more ></a>
+        </div>
+      </div>
+    </div> 
 
-</a>
+<div class="clientblog">
+      <div>
+        <b>WHAT CLIENT'S SAY</b><br><br>
+      </div>
 
-</div>
-<div class="postData">
-  <span class="line">&nbsp;</span>
-    <h2 class="postTitle"><a href="/blog/home-flooring" hreflang="en">Home Flooring</a></h2> 
-  
-  <p class="postDescription">Wooden floors work equally well with a modern decor and an ethnic set-up. </p>
-  <div class="postCategory">
-    <a href="category/3" class="main-category">Living and Lifestyle</a>
-  </div>
-  <div class="read-more"><a href="/blog/home-flooring">&nbsp;</a></div>
-</div>
-
-   </div>
-   </div>
+      <div class="msg"><!-- <img src="images/quma_03.jpg"> -->
+        <blockquote class="clint-msg">Hello,I want to thank you for creating a great template and for excellent and quick support and help that you have been providing to me as I begin to work with it.</blockquote>
+        <!-- <img class="quot" src="images/quma_07.jpg"> -->
+      </div>
+      <div class="triangle">
+        
+      </div>
        
-   
-  
-   <div>
-   <div class="latest-post slideanim big data-right">
-     
-<div class="postImg">
-    <a href="/blog/home-diy-ideaso"><img src="/blog/sites/default/files/styles/latest_blog_small/public/2017-11/TN_2.jpg?itok=JqcTEaEI" width="267" height="267" alt="TN" typeof="foaf:Image" class="img-responsive" />
-
-</a>
-
-</div>
-<div class="postData">
-  <span class="line">&nbsp;</span>
-    <h2 class="postTitle"><a href="/blog/home-diy-ideaso" hreflang="en">Home DIY Ideas_O</a></h2> 
-  
-  <p class="postDescription">Diwali calls for some DIY, of course! So use your creativity and add peppy décor elements to…</p>
-  <div class="postCategory">
-    <a href="category/3" class="main-category">Living and Lifestyle</a>
+      <div class="clientinfo">
+        <div>
+          <p class="solid"><a href=""><img src="images/fty_03.jpg"></a></p>
+        </div>
+        <div class="client-info">
+          <b>John Smith</b>
+          <p>CEO & Founder-Okler
+        </div>
+      </div>
+          
+    </div>
   </div>
-  <div class="read-more"><a href="/blog/home-diy-ideaso">&nbsp;</a></div>
-</div>
 
-   </div>
-   </div>
-       
+<!-- Footer -->
+<section>
+  <div class="footer">
+    <div class="help">
+      <h5 class="footerhead">Help</h5>
+      <div class="helplist">
+	      	<h6><img class="arrow" src="images/footer-arrow.jpg">Faq</h6>
+	      	<h6><img class="arrow" src="images/footer-arrow.jpg">Customer Service</h6>
+      </div>
+      <!-- <ul class="footerhead">
+        <li class="helplist"><h6><img class="arrow" src="images/footer-arrow.jpg">Faq</h6></li>
+        <li class="helplist"><h6><img class="arrow" src="images/footer-arrow.jpg">Customer Service</h6></li>
+        <li class="helplist"><h6><img class="arrow" src="images/footer-arrow.jpg">Shopping Guide</h6></li>
+        <li class="helplist"><h6><img class="arrow" src="images/footer-arrow.jpg">Vero Moda Sixe Guide</h6></li>
+        <li class="helplist"><h6><img class="arrow" src="images/footer-arrow.jpg">Return Policy</h6></li>
+        <li class="helplist"><h6><img class="arrow" src="images/footer-arrow.jpg">Shipping and Delivery</h6></li>
+      </ul> -->
+      </div>
+      <div class="contact-info">
+      <h5 class="footerhead">Contact Information</h5>
+      <ul class="footerhead">
+        <li class="infolist"><h6 class="info"><img class="arrow" src="images/location.jpg">ADDRESS:</h6>
+        <h6 class="txt">123 Street name,City,England</h6></li>
+        <li class="infolist"><h6 class="info"><img class="arrow" src="images/phone.jpg">PHONE:</h6>
+        <h6 class="txt">(123) 456 7890</h6></li>
+        <li class="infolist"><h6 class="info"><img class="arrow" src="images/email.jpg">EMAIL:</h6>
+        <h6 class="txt">mail@example.com</h6></li>
+        <li class="infolist"><h6 class="info"><img class="arrow" src="images/working.jpg">WORKING DAYS/HOURS:</h6>
+        <h6 class="txt">Mon-Sun /9:00AM-8:00PM</h6></li>
+        
+      </ul>
+      </div>
+      <div class="follow">
+      <h5 class="footerhead">Follow us</h5>
+      <ul class="footerhead">
+        <li class="followlist"><h6><img class="arrow" src="images/footer-arrow.jpg">Facebook</h6></li>
+        <li class="followlist"><h6><img class="arrow" src="images/footer-arrow.jpg">Twitter</h6></li>
+        <li class="followlist"><h6><img class="arrow" src="images/footer-arrow.jpg">Pinterest</h6></li>
+        <li class="followlist"><h6><img class="arrow" src="images/footer-arrow.jpg">Instagram</h6></li>
+        <li class="followlist"><h6><img class="arrow" src="images/footer-arrow.jpg">Return Policy</h6></li>
+        <li class="followlist"><h6><img class="arrow" src="images/footer-arrow.jpg">Youtube</h6></li>
+      </ul>
+
+      </div>
+
+      <div class="newsletters" >
+        <h5 class="footerhead">Be The First To Know</h5>
+        <h6 class="txt">Get all the latest information on Events,Sales and Offers.Sign up for newsletters today</h6>
+        <div class="enteremail">
+        <h6 class="txt">Enter your email address</h6>
+        <input type="email" name="email" value="Enter Email">
+        <input type="submit" name="submit" value="Sign up">
+        </div>
+      </div>
+    </div><!-- footer -->
+  </div>
+  </section>
 
 </div>
+<!-- <script src="jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="js/slick-master/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+		$(document).ready(function(){
+			$(".regular").slick({
+	        dots: true,
+	        infinite: true,
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      });
+		});
+	</script> -->
 
 </body>
 </html>
